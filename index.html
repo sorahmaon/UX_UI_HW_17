@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navigation Bar</title>
+    <style>
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #f1f1f1;
+        }
+        
+        ul.navbar li {
+            float: right;
+        }
+        
+        ul.navbar li a {
+            display: block;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: Inter, sans-serif;
+            font-size: 16px; 
+            letter-spacing: 8px;
+        }
+        
+        ul.navbar li a:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">ABOUT</a></li>
+    </ul>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image with Text Below</title>
+    <style>
+            .hero-wrapper {
+            text-align: center;
+            padding-top: 100px; 
+        }
+        
+        .hero-image {
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .hero-text {
+            text-align: center;
+            font-family: Inter, sans-serif;
+            font-size: 24px;
+            line-height: 1.5;
+            letter-spacing: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-wrapper">
+        <div class="hero-image">
+            <img src="file:///C:/Users/sarah/OneDrive/Documents/Monash/UX_UI_HM%2017/high%20moon.png" alt="Image">
+             </div>
+                
+        <div class="hero-text">
+            <p>Hello, I'm Sarah, a freelance designer from Sydney.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Section</title>
+    <style>
+        /* CSS Styles for About Section */
+        .about-wrapper {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 150px;
+            flex-wrap: wrap; /* Wrap the content to allow for multiple rows */
+        }
+        
+        .about-header {
+            width: 100%;
+            text-align: left;
+            font-family: Inter, sans-serif;
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-left: 200px;
+            letter-spacing: 8px;
+        }
+        
+        .about-container {
+            width: 400px;
+            height: 300px;
+            border-radius: 20px;
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin-left: 200px; /* Add margin to create space between the gray box and the profile image */
+            flex: 1; /* Take up the available space next to the profile image */
+        }
+        
+        .about-text {
+            text-align: left;
+            font-family: Inter, sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        
+        .about-image {
+            text-align: right;
+        }
+        
+        .about-image img {
+            width: 300px; 
+            height: 300px;
+            border-radius: 20px;
+            padding: 50px;
+            margin-right: 200px;
+        }
+
+        .resume-button {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-family: Inter, sans-serif;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .resume-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="about-wrapper">
+        <h2 class="about-header">ABOUT</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Hi, I’m Sarah, an interior designer and a student of UX and UI design, I specialize in creating spaces and experiences that are not only beautiful but also intuitive and user-friendly.</p>
+
+                <p>With a passion for combining aesthetics and functionality, I am committed to developing innovative design solutions that delight and simplify the lives of users. Whether it's a physical environment or a digital interface, I strive to create designs that are accessible, inclusive, and sustainable.</p>
+            </div>
+            <button class="resume-button">RESUME</button>
+        </div>
+        <div class="about-image">
+            <img src="file:///C:/Users/sarah/Videos/Monash/Profile%20pic.jpg" alt="Profile Image">
+            
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Footer</title>
+    <style>
+        
+        .footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .footer ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .footer li {
+            margin: 0 10px;
+        }
+        
+        .footer li a {
+            text-decoration: none;
+            color: #333;
+            font-family: Inter, sans-serif;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <ul>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">GITHUB</a></li>
+            <li><a href="#">LINKEDIN</a></li>
+            <li><a href="#">RESUME</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+
+
